@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REG FORM</title>
+    <link rel="stylesheet" href="/style1.css">
+  </head>
+  <body>
+    <!-- <marquee behavior="" direction="right">  -->
+      <h1>Course Registration Form</h1>
+    </marquee>
+    <form>
+      <fieldset>
+        <legend>Personal Details</legend>
+        <table>
+          <tr>
+            <td><label for="First name:">First name:</label></td>
+
+            <td>
+              <input
+                type="text"
+                name="fn"
+                id="fn"
+                placeholder="Ex dhee"
+              />
+              <p>Enter your first name</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="sur Name:">sur Name:</label></td>
+
+            <td><input type="text" id="sn" placeholder="Ex T" />
+            <p>Enter your sur name</p></td>
+
+          </tr>
+
+          <tr>
+            <td><label for="mobile number">Mobile Number:</label></td>
+
+            <td>
+              <input maxlength="10" type="tel" id="mn" placeholder="EX : 987-654-321" required />
+              <p>Enter your 10 digit mobile number</p><br />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="">Email:</label></td>
+
+            <td><input type="email" required />
+              <img class="valid" src="https://cdn-icons-png.flaticon.com/128/190/190411.png" alt="">
+              <img class="invalid" src="https://cdn-icons-png.flaticon.com/128/9068/9068699.png" alt="">
+            <p>Enter your email Id which include At least 8 characters, 1 uppercase, 1 number </p></td>
+          </tr>
+
+          <tr>
+            <td><label for="password">Password:</label></td>
+
+            <td><input type="password" />
+              <p>Enter your password</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="password">Conform Password:</label></td>
+
+            <td><input type="password" />
+            <p>Enter your Conform password</p></td>
+          </tr>
+
+          <tr>
+            <td><label for="DOB">DOB:</label></td>
+
+            <td><input type="date" />
+            <p>Enter your DOB</p></td>
+          </tr>
+
+          <tr>
+            <td><label for="Gender">Gender:</label></td>
+
+            <td>
+              <input type="radio" name="Gender" value="Male" /><label for="Male"
+                >Male</label
+              >
+              <input type="radio" name="Gender" value="Female" /><label
+                for="Female"
+                >Female</label
+              >
+              <input type="radio" name="Gender" value="Others" /><label
+                for="Others"
+                >Others</label
+              ><br />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="Select country">Select Country:</label></td>
+
+            <td>
+              <select name="" id="">
+                <option value="Ind">Ind</option>
+                <option value="Aus">Aus</option>
+                <option value="Russia">Russia</option></select
+              ><br />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="Upload Picture">Upload Pic</label></td>
+
+            <td><input type="file" /><br /></td>
+          </tr>
+        </table>
+
+        <!-- <input type="reset" /><br />
+        <input type="submit" name="submit" id="submit" /> -->
+      </fieldset>
+    </form>
+    <form>
+      <fieldset>
+        <legend>contact</legend>
+        <table>
+          <tr>
+            <td><label for="co">message:</label></td>
+            <td>
+              <textarea name="text " id="ta" rows="4" cols="20"></textarea></td>
+            </td>
+          </tr><br>
+                      
+
+        </table>
+      </fieldset>
+      <input type="reset" />
+        <input type="submit" name="submit" id="submit" />
+    </form>
+  </body>
+</html>
